@@ -1,0 +1,15 @@
+{
+    "name": "luma",
+    "description": "Luma's plugins for Claude.",
+    "owner": {
+        "name": "Luma AI, Inc.",
+        "url": "https://lumalabs.ai"
+    },
+    "plugins": [
+        {
+            "name": "luma",
+            "source": "./luma",
+            "description": "Generate and edit images and video with Luma's models."
+        }
+    ]
+}
