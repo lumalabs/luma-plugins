@@ -22,6 +22,14 @@ Try:
 - Make a 5-second cinematic clip of waves rolling onto a beach at sunset.
 - How many credits have I used this billing period?
 
+## Troubleshooting
+
+- **Every Luma request fails, or Claude says Luma isn't connected:** the plugin is installed but the connector isn't. Open the plugin's **Connectors** tab and connect **Luma**. On Team and Enterprise plans, ask an Owner to add the Luma connector for the organization first.
+- **Sign-in doesn't finish:** close the sign-in window and select **Connect** again. Sign in with the account you use at [lumalabs.ai](https://lumalabs.ai).
+- **A generation is refused for credits:** the team you chose at sign-in is out of credits for this billing period. Ask Claude for your credit usage to check.
+- **A video seems stuck:** video runs take a few minutes. Ask Claude to check on the run.
+- **Anything else:** contact [Luma support](https://luma-ai.support.site/).
+
 ## What this plugin runs and sends
 
 This plugin contains no code. It points Claude at one remote MCP server, `https://agents.lumalabs.ai/mcp`, run by Luma AI.
