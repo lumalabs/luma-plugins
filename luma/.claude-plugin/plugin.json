@@ -1,6 +1,6 @@
 {
     "name": "luma",
-    "version": "0.3.8",
+    "version": "0.3.10",
     "description": "Generate and edit images and video with Luma's models.",
     "author": {
         "name": "Luma AI",
@@ -13,7 +13,7 @@
         "luma",
         "creative"
     ],
-    "displayName": "Luma",
+    "displayName": "Luma AI",
     "icon": "./assets/logo.png",
     "supportUrl": "https://luma-ai.support.site/",
     "privacyPolicyUrl": "https://lumalabs.ai/legal/privacy-policy",
